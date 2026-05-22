@@ -1,48 +1,57 @@
-<form class="login-form" id="registerForm" novalidate>
+<body>
+    <div class="login-container">
+        <div class="login-card">
 
-    <!-- Username -->
-    <div class="form-group">
-        <div class="input-wrapper">
-            <input type="text" id="username" name="username" required>
-            <label for="username">Username</label>
-            <span class="focus-border"></span>
-        </div>
-    </div>
+            <div class="login-header">
+                <h2>Create Account</h2>
+                <p>Register your account</p>
+            </div>
 
-    <!-- Email -->
-    <div class="form-group">
-        <div class="input-wrapper">
-            <input type="email" id="email" name="email" required>
-            <label for="email">Email</label>
-            <span class="focus-border"></span>
-        </div>
-    </div>
+            <form class="login-form" id="registerForm" novalidate>
 
-    <!-- Password -->
-    <div class="form-group">
-        <div class="input-wrapper password-wrapper">
-            <input type="password" id="password" name="password" required>
-            <label for="password">Password</label>
+                <!-- Username -->
+                <div class="form-group">
+                    <div class="input-wrapper">
+                        <input type="text" id="username" name="username" required>
+                        <label for="username">Username</label>
+                        <span class="focus-border"></span>
+                    </div>
+                </div>
 
-            <button type="button" class="password-toggle" id="passwordToggle">
-                <span class="eye-icon"></span>
-            </button>
+                <!-- Email -->
+                <div class="form-group">
+                    <div class="input-wrapper">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                </div>
 
-            <span class="focus-border"></span>
-        </div>
-    </div>
+                <!-- Password -->
+                <div class="form-group">
+                    <div class="input-wrapper password-wrapper">
+                        <input type="password" id="password" name="password" required>
+                        <label for="password">Password</label>
 
-    <!-- Register Button -->
-    <button type="submit" class="login-btn btn">
-        <span class="btn-text">Register</span>
-    </button>
+                        <button type="button" class="password-toggle" id="passwordToggle">
+                            <span class="eye-icon"></span>
+                        </button>
 
-</form>
+                        <span class="focus-border"></span>
+                    </div>
+                </div>
 
-<!-- Link Login -->
-<div class="signup-link">
-    <p>Sudah punya akun? <a href="login.html">Sign In</a></p>
-</div>
+                <!-- Button -->
+                <button type="submit" class="login-btn btn">
+                    <span class="btn-text">Register</span>
+                </button>
+
+            </form>
+
+            <!-- Login Link -->
+            <div class="signup-link">
+                <p>Sudah punya akun? <a href="login.html">Sign In</a></p>
+            </div>
 
             <!-- Success Message -->
             <div class="success-message" id="successMessage">
@@ -50,6 +59,7 @@
                 <h3>Register Successful!</h3>
                 <p>Redirecting to login page...</p>
             </div>
+
         </div>
     </div>
 
